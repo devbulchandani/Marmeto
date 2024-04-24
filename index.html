@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+
+    <div class="page-container">
+        <div class="product-images-section">
+            <img id="main-image" height="80%">
+            <div class="image-tabs" id="image-tabs-container">
+            </div>
+        </div>
+
+
+        <div class="product-details-section">
+            <div class="first-row row">
+                <h2 id="product-vendor" class="row-heading">Product Vendor</h2>
+                <h3 id="product-title">Product Title</h3>
+            </div>
+
+            <div class="second-row row">
+                <div class="price">
+                    <p id="price">$12999.00</p>
+                    <p id="percentage-off">35% Off</p>
+
+                </div>
+                <p id="compare-to-price">$19999.00</p>
+            </div>
+
+            <div class="third-row row">
+                <p class="row-heading">Choose a Color</p>
+                <form id="color-form" class="colors"></form>
+            </div>
+
+            <div class="fourth-row row" id="fourth-row">
+                <p class="row-heading">Choose a Size</p>
+                <div class="size-options">
+                    <label>
+                        <input type="radio" name="size" value="small">
+                        Small
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="medium">
+                        Medium
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="large">
+                        Large
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="extra-large">
+                        Extra Large
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="XXL">
+                        XXL
+                    </label>
+                </div>
+
+                <div class="add-to-cart">
+                    <div class="cart-count">
+                        <p class="plus-minus">-</p>
+                        <p class="items-in-cart">1</p>
+                        <p class="plus-minus">+</p>
+                    </div>
+                    <button class="cart-button">
+                        <img src="./assets/Cart.svg" alt="">
+                        <p id="add-to-cart-text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="fifth-row">
+                <div id="description">
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
